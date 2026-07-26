@@ -20,11 +20,11 @@ jobs:
           xcodebuild clean build \
             -project Movieez.xcodeproj \
             -scheme Movieez \
-            -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
+            -destination 'platform=iOS Simulator,name=iPhone 17 Pro'
 
       - name: Run Unit Tests
         run: |
           xcodebuild test \
             -project Movieez.xcodeproj \
             -scheme Movieez \
-            -destination 'platform=iOS Simulator,name=iPhone 16 Pro'
+            -destination 'platform=iOS Simulator,name=iPhone 17 Pro'
